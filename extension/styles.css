@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  width: 350px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 15px;
+  background: #f5f5f5;
+  color: #333333;
+}
+
+/* Heading */
+h1 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #1e3a8a;
+}
+
+/* Dropdown and Button */
+select,
+button {
+  padding: 10px;
+  font-size: 14px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #1e3a8a;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Dropdown */
+select {
+  background: #ffffff;
+  color: #1e3a8a;
+}
+
+/* Button */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  display: none;
+  margin: 10px auto;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #ccc;
+  border-top: 4px solid #2563eb;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Recommendations List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+/* Series Card */
+.series-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.series-card:hover {
+  transform: scale(1.03);
+}
+
+/* Series Poster */
+.series-poster {
+  width: 60px;
+  height: 85px;
+  border-radius: 6px;
+}
+
+/* Series Info */
+.series-info {
+  text-align: left;
+  max-width: 230px;
+}
+
+.series-info h3 {
+  font-size: 16px;
+  margin: 0;
+  color: #1e3a8a;
+}
+
+.series-info p {
+  font-size: 12px;
+  margin: 5px 0;
+  color: #555;
+}
